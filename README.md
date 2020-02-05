@@ -20,7 +20,7 @@
 
 主干网络结构如下：
 <div align=left>
-  <img width=200 height=250 src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/yolo-struct.jpg" >
+  <img width=800 height=300 src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/yolo-struct.jpg" >
 </div>
 
 ## 模型线上效果展示
