@@ -36,24 +36,29 @@ python predict.py --model darknet --checkpoint ./checkpoint/x
 ```
 ## 模型线上效果展示
 <p align="center">
+    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse1.jpg", height="180">
+</p>
+<p align="center">
+    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse2.jpg", height="180">
+    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse3.jpg", height="180">
+</p>
+<p align="center">
+    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse4.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/09979.jpg", height="180">
+</p>
+<p align="center">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/09981.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/09982.jpg", height="180">
 </p>
 <p align="center">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/09983.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10966.jpg", height="180">
+</p>
+<p align="center">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10969.jpg", height="180">
-</p>
-<p align="center">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10971.jpg", height="180">
-    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10976.jpg", height="180">
-    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse1.jpg", height="180">
-</p>
 <p align="center">
-    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse2.jpg", height="180">
-    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse3.jpg", height="180">
-    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse4.jpg", height="180">
+    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10976.jpg", height="180">
 </p>
 
 ## 感谢
