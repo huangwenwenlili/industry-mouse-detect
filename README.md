@@ -18,6 +18,11 @@
 2. 采用双帧差分监测帧与帧之间像素级别变化，并改动网络结构做重点监督训练（解决夜晚识别效果差问题、解决老鼠天然保护色问题）
 3. 修改主干网络先验框尺寸，方便小物体能得到充分的学习（解决小物体检测问题）
 
+主干网络结构如下：
+<div align=left>
+  <img width=200 height=250 src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/yolo-struct.jpg" >
+</div>
+
 ## 模型线上效果展示
 ## 如何使用本项目
 ```shell
