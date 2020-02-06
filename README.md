@@ -9,7 +9,7 @@
 ## 背景介绍
 本工程着重识别工业环境中的老鼠，以便能够得到及时、有效的处理。本工程的难度如下：
 - 老鼠与背景色难以区分
-- 老鼠经常出没在晚上，增加识别难度
+- 老鼠经常出没在晚上，增加了识别难度
 - 老鼠体型较小，传统的图像处理方法和神经网络方法难以识别 
 - 工业环境要求较高的处理速度，一般的神经网络方法难以满足
 ## 实现方法简介
@@ -18,13 +18,19 @@
 2. 采用双帧差分监测帧与帧之间像素级别变化，并改动网络结构做重点监督训练（解决夜晚识别效果差问题、解决老鼠天然保护色问题）
 3. 修改主干网络先验框尺寸，方便小物体能得到充分的学习（解决小物体检测问题）
 
-主干网络结构如下：
+**主干网络结构如下：**
 <div align=left>
   <img width=900 height=400 src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/yolo-struct.jpg" >
 </div>
-自主调整先验框大小（anchor）：
+
+**自主调整先验框大小（anchor）：**
 <div align=left>
   <img width=340 height=245 src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/anchor.jpg" >
+</div>
+
+**backbone的性能横向对比：**
+<div align=left>
+  <img width=340 height=245 src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/performance.jpg" >
 </div>
 
 ## 如何使用本项目
@@ -49,7 +55,7 @@ python predict.py --model darknet --checkpoint ./checkpoint/x
 &emsp;  
 &emsp;  
 
-**以下为工业环境实际应用，目标较小，故在机器识别的基础上，手工加了着重标识方便阅读：**
+**以下为工业环境实际应用，目标较小：**
 <p align="left">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/09979.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10976.jpg", height="180">
