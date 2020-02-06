@@ -73,7 +73,9 @@ python predict.py --model darknet --checkpoint ./checkpoint/x
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10971.jpg", height="180">
 </p>
 
-## 引用
-[PAPER:YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf)  
-[YOLOv3官方原始工程](https://pjreddie.com/darknet/yolo/)  
-[darknet原始主干网络](https://github.com/pjreddie/darknet)  
+## 参考
+[1][YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf)  
+[2][Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, 2015](https://arxiv.org/pdf/1506.01497.pdf)  
+[3][Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning, 2016](https://arxiv.org/pdf/1602.07261.pdf)  
+[4][YOLOv3官方原始工程](https://pjreddie.com/darknet/yolo/)  
+[5][darknet原始主干网络](https://github.com/pjreddie/darknet)  
