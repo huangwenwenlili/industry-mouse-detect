@@ -24,7 +24,7 @@
 </div>
 自主调整先验框大小（anchor）：
 <div align=left>
-  <img width=900 height=400 src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/anchor.jpg" >
+  <img width=340 height=245 src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/anchor.jpg" >
 </div>
 
 ## 如何使用本项目
@@ -39,10 +39,10 @@ python test.py
 python predict.py --model darknet --checkpoint ./checkpoint/x
 ```
 ## 模型线上效果展示
-<p align="center">
+<p align="left">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse1.jpg", height="180">
 </p>
-<p align="center">
+<p align="left">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse4.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse3.jpg", height="180">
 </p>
@@ -50,19 +50,19 @@ python predict.py --model darknet --checkpoint ./checkpoint/x
 &emsp;  
 
 **以下为工业环境实际应用，目标较小，故在机器识别的基础上，手工加了着重标识方便阅读：**
-<p align="center">
+<p align="left">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/09979.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10976.jpg", height="180">
 </p>
-<p align="center">
+<p align="left">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/09981.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/09982.jpg", height="180">
 </p>
-<p align="center">
+<p align="left">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/09983.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10966.jpg", height="180">
 </p>
-<p align="center">
+<p align="left">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10969.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10971.jpg", height="180">
 </p>
