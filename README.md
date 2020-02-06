@@ -39,12 +39,12 @@ python predict.py --model darknet --checkpoint ./checkpoint/x
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse1.jpg", height="180">
 </p>
 <p align="center">
-    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse2.jpg", height="180">
+    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse4.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse3.jpg", height="180">
 </p>
 <p align="center">
-    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse4.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/09979.jpg", height="180">
+    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10976.jpg", height="180">
 </p>
 <p align="center">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/09981.jpg", height="180">
@@ -57,8 +57,6 @@ python predict.py --model darknet --checkpoint ./checkpoint/x
 <p align="center">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10969.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10971.jpg", height="180">
-<p align="center">
-    <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10976.jpg", height="180">
 </p>
 
 ## 感谢
