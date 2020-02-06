@@ -22,6 +22,10 @@
 <div align=left>
   <img width=900 height=400 src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/yolo-struct.jpg" >
 </div>
+自主调整先验框大小（anchor）：
+<div align=left>
+  <img width=900 height=400 src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/anchor.jpg" >
+</div>
 
 ## 如何使用本项目
 ```shell
@@ -42,6 +46,7 @@ python predict.py --model darknet --checkpoint ./checkpoint/x
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse4.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/mouse3.jpg", height="180">
 </p>
+**以下为工业环境实际应用，目标较小，故在机器识别的基础上，手工加了着重标识方便阅读：**
 <p align="center">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/09979.jpg", height="180">
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10976.jpg", height="180">
@@ -59,4 +64,7 @@ python predict.py --model darknet --checkpoint ./checkpoint/x
     <img src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/10971.jpg", height="180">
 </p>
 
-## 感谢
+## 引用
+[YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
+[YOLOv3官方原始工程](https://pjreddie.com/darknet/yolo/)
+[darknet原始主干网络](https://github.com/pjreddie/darknet)
