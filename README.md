@@ -18,6 +18,10 @@
 2. 采用双帧差分监测帧与帧之间像素级别变化，并改动网络结构做重点监督训练（解决夜晚识别效果差问题、解决老鼠天然保护色问题）
 3. 修改主干网络先验框尺寸，方便小物体能得到充分的学习（解决小物体检测问题）
 
+**主干网络的选择依据：**
+1. 相比较 [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002) 和 [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/pdf/1506.01497.pdf),YOLOV3算法能够在基本满足识别效果的同时，保持高速的运算速度
+2. 相比较[SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325)算法，二者处理速度相差较小，但是YOLOV3算法对小物体的识别效果更好（能够灵活改动先验anchor）
+
 **主干网络结构如下：**
 <div align=left>
   <img width=900 height=400 src="https://github.com/yangbisheng2009/industry-mouse-detect/blob/master/image/yolo-struct.jpg" >
